@@ -1,8 +1,5 @@
 <?php
 $post = filter_input_array(INPUT_POST);
-echo '$post:';
-var_dump($post);
-echo '<br>';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +12,7 @@ echo '<br>';
 </head>
 
 <body>
-    <h1>登録確認画面</h1>
+    <h1><?php echo $post['submit'] ?>確認画面</h1>
     <article>
         <h2 class="display-none">入力項目</h2>
         <table>

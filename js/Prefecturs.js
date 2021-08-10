@@ -15,13 +15,3 @@ option.value = Prefectures[i];
 select.appendChild(option);
 }
 
-
-// let select = document.getElementById('Prefectures');
-
-// for(let i = 1; i <= 12; i++){
-//   let option = document.createElement('option');
-//   option.setAttribute('value', i);
-//   option.innerHTML = i + '月';
-//   select.appendChild('option');
-// };
-
